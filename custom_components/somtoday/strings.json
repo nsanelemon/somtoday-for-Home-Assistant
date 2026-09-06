@@ -1,0 +1,38 @@
+{
+  "title": "SOMtoday",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kies je school",
+        "description": "Selecteer de SOMtoday-school. De lijst is een gearchiveerde momentopname, omdat SOMtoday de openbare scholenlijst heeft verwijderd.",
+        "data": {
+          "school_uuid": "School"
+        }
+      },
+      "manual_school": {
+        "title": "School handmatig toevoegen",
+        "description": "De scholenlijst kon niet worden geladen of je school ontbreekt. Vul de UUID van de SOMtoday-school in. De schoolnaam is alleen voor de weergave.",
+        "data": {
+          "school_uuid": "School-UUID",
+          "school_name": "Schoolnaam (optioneel)"
+        }
+      },
+      "credentials": {
+        "title": "Inloggen bij SOMtoday",
+        "description": "Voer de SOMtoday-inloggegevens voor {school} in. De integratie gebruikt de moderne interne SOMtoday-login met OAuth/PKCE. Externe SSO via bijvoorbeeld Microsoft of Google wordt nog niet ondersteund.",
+        "data": {
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met SOMtoday.",
+      "invalid_auth": "Inloggen mislukt. Controleer je gegevens. Externe SSO-accounts worden nog niet ondersteund.",
+      "invalid_uuid": "Vul een geldige school-UUID in, bijvoorbeeld 4213a402-b898-4d16-9ebb-8c5f02b57474."
+    },
+    "abort": {
+      "already_configured": "Dit SOMtoday-account is al toegevoegd."
+    }
+  }
+}
