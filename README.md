@@ -4,6 +4,14 @@ Deze versie maakt voor iedere leerling in het SOMtoday-account een afzonderlijk
 Home Assistant-apparaat aan. Per leerling worden sensoren voor lessen, huiswerk
 en cijfers en twee agenda's aangemaakt: **Rooster** en **Huiswerk**.
 
+# Belangrijke notitie 1
+
+Build with AI!!
+
+# Belangrijke notitie 2
+
+Volgens de onofficiele docs zijn er verschillende manieren inloggen mogelijk. Het is niet bekend bij welke scholen het allemaal werkt. 
+
 ## Bijwerken zonder opnieuw instellen
 
 1. Vervang `/config/custom_components/somtoday` door de gelijknamige map uit
